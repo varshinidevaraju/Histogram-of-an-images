@@ -30,7 +30,7 @@ The Histogram of gray scale image and color image is shown.
 python
 # Developed By: VARSHINI D
 # Register Number: 212223230234
-
+```
 import matplotlib.pyplot as plt 
 import cv2
 
@@ -76,7 +76,7 @@ equalized_grey_img = cv2.equalizeHist(grayscale_image)
 plt.title("Equalized Hist of Gray Image")
 plt.hist(equalized_grey_img.ravel(),bins=256,color='black',alpha=0.6)
 plt.show()
-
+```
 ## Output:
 ### Input Grayscale Image and Color Image
 ![Screenshot 2025-04-09 114101](https://github.com/user-attachments/assets/32129e16-8a7d-4af4-ae37-ceea1d4a70a4)
